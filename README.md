@@ -478,13 +478,5 @@ For questions about the extensions, the multi-tracer framework, the dark-photon 
 [niharmaheshjani@gmail.com](mailto:niharmaheshjani@gmail.com)
 [github.com/NiharJani2002](https://github.com/NiharJani2002/Testing-the-Cosmic-Distance-Duality-Relation-with-21-cm-HI-Galaxies)
 
----
-
-*"The most important single ingredient in the formula of success is knowing how to get along with people."*
-*— Dale Carnegie*
-
-*The people here are photons, HI atoms, and the SKA. Know how they behave, and they will tell you whether Einstein was right.*
-
----
 
 > **Note on reproducibility.** The MCMC chains use a fixed seed per chain (xoshiro256** initialised from a deterministic seed sequence). Rerunning `code.cpp` on the same machine should reproduce the `.txt` files to floating-point precision. Minor differences may appear across CPU architectures due to SIMD instruction ordering.
