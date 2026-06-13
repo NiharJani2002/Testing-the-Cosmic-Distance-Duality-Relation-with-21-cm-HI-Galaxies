@@ -451,6 +451,7 @@ If you use the extensions, the code, or the data files in your research, please 
 ```bibtex
 @misc{
   author       = {Jani, Nihar Mahesh},
+  Contact       = {niharmaheshjani@gmail.com},
   title        = {Testing the Cosmic Distance Duality Relation with 21-cm {HI} Galaxies:
                   Mock {SKA} Forecasts, Multi-Tracer Constraints, and Dark-Photon Coupling Limits},
   year         = {2024},
