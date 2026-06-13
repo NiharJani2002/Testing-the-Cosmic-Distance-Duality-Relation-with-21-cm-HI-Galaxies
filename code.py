@@ -1,12 +1,8 @@
 """
-plot_tolman21cm.py
-──────────────────────────────────────────────────────────────────────────────
-Publication-quality figures for the Tolman 21cm CDDR Test
 (Khedekar & Chakraborti 2011 reproduction + 5 novel extensions)
 By Nihar Mahesh Jani — reproducing results from code.cpp
 
 Each data file → one standalone figure saved in the current directory.
-──────────────────────────────────────────────────────────────────────────────
 """
 
 import os
