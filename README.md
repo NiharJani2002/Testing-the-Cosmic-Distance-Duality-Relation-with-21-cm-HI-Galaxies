@@ -71,7 +71,7 @@ The crucial insight from Khedekar & Chakraborti: 21-cm is a radio wavelength. Du
 
 ```
 .
-├── code.cpp                            # ← Run this first. Full C++17 simulation engine.
+├── code.cpp #← Run this first: Full C++17 simulation engine—much faster than Python; M1 Pro took ~5460s For C++, For Python It May Take Many Hours .
 ├── code.py                             # ← Run this second. Generates all publication figures.
 │
 └── results/
