@@ -16,7 +16,7 @@ Khedekar & Chakraborti showed in 2011 that HI 21-cm galaxies are a beautifully c
 
 I reproduced every result in that paper from scratch. Then I extended it five ways that the original did not: redshift-binned constraints, dust-bias quantification, Fisher forecasting, multi-tracer joint inference with Type Ia supernovae and BAO, and a first-of-its-kind translation of the $\varepsilon$ constraint into an upper limit on dark-photon kinetic mixing.
 
-The whole thing — mock catalog generation, MCMC sampling, all figures — runs in a single C++17 binary (`code.cpp`) in under 26 minutes on a laptop. The Python script (`code.py`) then turns the output data files into publication-quality figures.
+The whole thing — mock catalog generation, MCMC sampling, all figures — runs in a single C++17 binary (`code.cpp`) in under 26 minutes on a laptop. The Python script (`code.py`) then turns the output data files into figures.
 
 If you want to understand the physics, the implementation, and what the numbers actually mean: read on.
 
@@ -71,8 +71,8 @@ The crucial insight from Khedekar & Chakraborti: 21-cm is a radio wavelength. Du
 
 ```
 .
-├── code.cpp #← Run this first: Full C++17 simulation engine—much faster than Python; M1 Pro took ~5460s For C++, For Python It May Take Many Hours .
-├── code.py                             # ← Run this second. Generates all publication figures.
+├── code.cpp #← Run first: C++17 simulation engine—much faster than Python; M1 Pro took ~5460s For C++, Python May Take Many Hours For Same thing 
+├── code.py  #← Run this second. Generates all figures.
 │
 └── results/
     │
@@ -194,7 +194,7 @@ pip install numpy matplotlib scipy
 python code.py
 ```
 
-This reads every `.txt` data file and writes 14 publication-quality PNG figures to the current directory. Takes under 2 minutes.
+This reads every `.txt` data file and writes 14 PNG figures to the current directory. Takes under 2 minutes.
 
 That is the complete workflow: `code.cpp` → data files → `code.py` → figures.
 
