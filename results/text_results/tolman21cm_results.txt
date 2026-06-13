@@ -1,0 +1,22 @@
+Tolman 21cm CDDR Test — Results
+Khedekar & Chakraborti (2011) arXiv:1105.1138
+
+=== Original Paper Reproduction ===
+Survey        ΔB_paper  ΔB_ours  Δα_paper  Δα_ours  Δε_paper  Δε_ours
+5xeVLA  0.072 0.101861  0.019 0.0247946  0.095 0.0453633
+SKA deep  0.026 0.00859598  0.006 0.00164871  0.026 0.00509662
+SKA wide  0.012 0.0112322  0.003 0.00217245  0.026 0.0123397
+SKA d+w  0.007 0.00273286  0.002 0.000595557  0.01 0.00197937
+
+=== Novel Extensions ===
+Ext-1: Binned ε(z)
+  z-bin 0: ε=0.00325252 ± 0.00836606
+  z-bin 1: ε=-0.00404379 ± 0.00650348
+  z-bin 2: ε=-0.00413763 ± 0.00662369
+  z-bin 3: ε=0.00262448 ± 0.0027683
+Ext-2: Dust bias (21cm) Δε=-0.0929011
+Ext-3: Fisher σ_ε=0.00207355
+Ext-4: HI-only σ_ε=0.00943568  Joint σ_ε=0.00494486
+Ext-5: Dark-photon χ<0.020024
+
+Total runtime: 1537.08 s

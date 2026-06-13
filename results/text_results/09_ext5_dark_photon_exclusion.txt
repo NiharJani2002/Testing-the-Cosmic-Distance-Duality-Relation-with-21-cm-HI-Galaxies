@@ -1,0 +1,5 @@
+quantity	value
+eps_2sigma	0.00395874
+chi_upper	0.020024
+chi2_upper	0.000400961
+m_coh_max_eV	4.98643e-19
