@@ -16,7 +16,7 @@ Khedekar & Chakraborti showed in 2011 that HI 21-cm galaxies are a beautifully c
 
 I reproduced every result in that paper from scratch. Then I extended it five ways that the original did not: redshift-binned constraints, dust-bias quantification, Fisher forecasting, multi-tracer joint inference with Type Ia supernovae and BAO, and a first-of-its-kind translation of the $\varepsilon$ constraint into an upper limit on dark-photon kinetic mixing.
 
-The whole thing — mock catalog generation, MCMC sampling, all figures — runs in a single C++17 binary (`code.cpp`) in under 1537 minutes on a laptop. The Python script (`code.py`) then turns the output data files into figures.
+The whole thing — mock catalog generation, MCMC sampling, all figures — runs in a single C++17 binary (`code.cpp`) in under 26 minutes on a laptop. The Python script (`code.py`) then turns the output data files into figures.
 
 If you want to understand the physics, the implementation, and what the numbers actually mean: read on.
 
@@ -71,7 +71,7 @@ The crucial insight from Khedekar & Chakraborti: 21-cm is a radio wavelength. Du
 
 ```
 .
-├── code.cpp #← Run first: C++17 simulation engine—much faster than Python; M1 Pro took ~1537s For C++, Python May Take Many Hours For Same thing 
+├── code.cpp #← Run first: C++17 simulation engine—much faster than Python; M1 Pro took ~1537seconds For C++, Python May Take Many Hours For Same thing 
 ├── code.py  #← Run this second. Generates all figures.
 │
 └── results/
