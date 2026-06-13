@@ -449,7 +449,7 @@ pip install numpy matplotlib scipy
 If you use the extensions, the code, or the data files in your research, please cite this repository:
 
 ```bibtex
-@misc{jani2024tolman21cm,
+@misc{
   author       = {Jani, Nihar Mahesh},
   title        = {Testing the Cosmic Distance Duality Relation with 21-cm {HI} Galaxies:
                   Mock {SKA} Forecasts, Multi-Tracer Constraints, and Dark-Photon Coupling Limits},
